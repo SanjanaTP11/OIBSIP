@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+<!-- Base application theme -->
+<style name="Base.Theme.Calculator"
+    parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Customize your theme here -->
+</style>
+
+<!-- Main application theme -->
+<style name="Theme.Calculator"
+    parent="Base.Theme.Calculator" />
+
+<!-- Calculator button style -->
+<style name="CalcButton" parent="Widget.Material3.Button">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">72dp</item>
+    <item name="android:layout_columnWeight">1</item>
+    <item name="android:layout_margin">4dp</item>
+    <item name="android:textSize">22sp</item>
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="backgroundTint">#333333</item>
+    <item name="android:insetTop">0dp</item>
+    <item name="android:insetBottom">0dp</item>
+</style>
+
+</resources>
